@@ -116,14 +116,16 @@ h3{
   background-size: cover;
 }
 .swiper-slide_1 {
-  background-image: url(../img/1.jpg);
+  background-image: url(../img/33.jpg);
+      background-position: top -10px center;
 }
 .swiper-slide_2 {
-  background-image: url(../img/2.jpg);
+  background-image: url(../img/22.jpg);
+    background-position: top -70px center;
 }
 .swiper-slide_3 {
-  background-image: url(../img/3.jpg);
-  background-position: top -10px center;
+  background-image: url(../img/11.jpg);
+  background-position: top -120px center;
 }
 .swiper-slide_4 {
   background-image: url(../img/4.JPG);
@@ -133,15 +135,15 @@ h3{
   background-image: url(../img/5.JPG);
 }
 .swiper-slide_6 {
-  background-image: url(../img/молитва.gif);
+  background-image: url(../img/gif.gif);
 }
 
 .decot_top{
   position: absolute;
-  top: 5vh;
+  top: 7vh;
   left: 0;
-  width: 53px;
-  height: 53px;
+  width: 0px;
+  height: 0px;
   z-index: 0;
 }
 .box-decor{
@@ -151,10 +153,14 @@ h3{
 .decot_bottom{
   position: absolute;
   bottom: -100px;
-  right: 0;
+  right: 34%;
   width: 90px;
   height: 98px;
   z-index: 0;
+}
+.cherry{
+    position: relative;
+    bottom: -110px;
 }
 
 .box-cap{
