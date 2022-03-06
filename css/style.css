@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat+Alternates:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 body{
   position: relative;
-  font-family: 'Caveat', cursive;
+
+font-family: 'Marck Script', cursive;
   background-image: url(../img/bg.svg);
   background-repeat: no-repeat;
   background-size: 500%;
@@ -43,7 +45,8 @@ h1{
   text-align: center;
   color: #FFFFFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Marck Script', cursive;
+
   width: 92%;
   left: 50%;
   transform: translateX(-50%);
@@ -60,7 +63,7 @@ h1{
   left: 50%;
   transform: translateX(-50%);
   overflow-y: hidden;
-  font-family: 'Caveat', cursive;
+  font-family: 'Marck Script', cursive;
   padding: 16px 16px 120px;
   border-left: 2px solid gray;
 }
@@ -80,7 +83,7 @@ h2{
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  color: #000000;
+  color: #b80000;
   margin-bottom: 16px;
 }
 p{
@@ -88,7 +91,7 @@ p{
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
-  color: #000000;
+  color: #d34e00;
   margin-bottom: 12px;
 }
 .right{
@@ -100,7 +103,7 @@ h3{
   font-size: 26px;
   line-height: 32px;
   text-align: center;
-  color: #000000;
+  color: #480054;
 }
 .swiper{
   height: 172px;
@@ -204,7 +207,7 @@ h3{
   text-align: center;
   color: #E13945;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Marck Script', cursive;
   background-color: transparent;
   transform: scale(1);
   animation: button 1s linear infinite alternate-reverse;
